@@ -1,0 +1,4 @@
+h1. sn1p
+
+A client for snippetly.  To use it, get an API key by logging in to
+http://sn1p.me, and then visiting http://sn1p.me/api_keys/.  Still alpha. 
