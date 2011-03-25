@@ -2,14 +2,10 @@
 import sys, os.path, json
 from urllib import urlopen, urlencode
 
-#from urllib import urlencode
-#from urllib2 import urlopen
-
 key_file = file(os.path.join(os.path.expanduser('~'), ".sn1p.key"))
 API_KEY = key_file.readline()
 key_file.close()
-#API_URL = "http://sn1p.me"
-API_URL = "http://localhost"
+API_URL = "http://sn1p.me"
 debug = False
 
 def get(path):
